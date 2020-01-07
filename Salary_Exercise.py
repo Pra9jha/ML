@@ -49,7 +49,6 @@ sal_groupby=sal.groupby("Year").mean()["BasePay"]
 print(sal_groupby)
 
 
-
 #How many unique job title are there
 print("* **************************How many unique job title are there****************************")
 print(sal["JobTitle"].unique())

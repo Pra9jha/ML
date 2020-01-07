@@ -15,11 +15,11 @@ print(g.get_group('mumbai'))
 
 #Here we will find maximum temoperature in each of the cities
 
-print(g.max())
-
-print(g.mean)
-
-print(g.describe)
+# print(g.max())
+#
+# print(g.mean)
+#
+# print(g.describe)
 
 #Here this procress is also called split ,apply and combine
 
