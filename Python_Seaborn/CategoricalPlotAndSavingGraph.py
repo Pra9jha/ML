@@ -53,6 +53,6 @@ print(tips.head(5))
 
 '''Most important is we can create any of the plot using catplot previously called "factorplot" just by passing as argument kind '''
 
-sns.catplot(y="total_bill",x="day",data=tips,kind="boxen",hue="sex")#note here we can change kind to strip,violin or any ither type of plot that we read till now
+sns.catplot(y="total_bill",x="day",data=tips,kind="bar",hue="sex")#note here we can change kind to stripplot,violinplot or any ither type of plot that we read till now
 plt.savefig('day_vs_total-bill.png')#we can also save in pdf formate
 plt.show()

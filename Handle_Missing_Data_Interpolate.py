@@ -9,5 +9,5 @@ print(data_frame)
 
 #Here we will use method="time"
 
-df2=data_frame.interpolate(method="time")
-print()
+df2=data_frame.interpolate(method="time",str="linear")
+print(df2)
